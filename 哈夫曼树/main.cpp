@@ -1,5 +1,4 @@
 ﻿#include"哈夫曼树类.h"
-#include"Copyright.h"
 
 int main()
 {
@@ -21,7 +20,4 @@ int main()
 
 	//利用编码进行译码
 	cout << endl << "解码成功，原文是" << tree.translate(temp) << endl;
-
-	//版权信息
-	Copyright();
 }
